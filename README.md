@@ -33,3 +33,6 @@ Penjelasan kode :
 3. Fitur file I/O. Saat pengguna mendownload file JSON, program memetakan ulang teks tersebut menjadi format types.Content agar API gemini mengetahui riwayat chat tersebut. Saat mengetik perintah khusus /save, program mengambil isi session_state.messages
 4. Dashboard statistik. Menggunakan collections.Counter untuk mengurai seluruh teks input dari pengguna, menyaring kata-kata penting, dan menampilkannya di dalam st.expander beserta total percakapan
 5. Routing chat dan error handling. Input dari pengguna akan ditangkap oleh st.chat_input. Program mengecek apakah input tersebut adalah perintah sistem (seperti /clear, /save, atau /exit) atau percakapan biasa. Jika percakapan biasa, input akan dikirim ke API gemini menggunakan fungsi send_message_stream() yang dibungkus dalam blok try except
+
+Bagian yang dibantu AI : Penulisan kode
+Bagian yang dikerjakan sendiri : Tema, system prompt, file README
