@@ -18,6 +18,14 @@ Cara menjalankan program :
 3. Menginstall dependensi yang dibutuhkan dengan menjalankan perintah 'pip install streamlit google-genai'
 
 Contoh screenshot :
+<img width="928" height="747" alt="image" src="https://github.com/user-attachments/assets/156c0e89-30f8-4c79-8a0f-7e637b5853f6" />
+<img width="916" height="596" alt="image" src="https://github.com/user-attachments/assets/831de36b-ec18-4007-be9f-89142fa28d68" />
+<img width="912" height="698" alt="image" src="https://github.com/user-attachments/assets/364673e5-5de3-47b1-948c-43997d104024" />
+<img width="917" height="373" alt="image" src="https://github.com/user-attachments/assets/96ae0b10-f3c5-4f6f-9fa2-00caa935e176" />
+<img width="917" height="658" alt="image" src="https://github.com/user-attachments/assets/13fd2fdc-1365-4a00-9f2c-22a0b90275d8" />
+<img width="917" height="331" alt="image" src="https://github.com/user-attachments/assets/4fd491d4-f772-4092-a216-4b17f9418359" />
+<img width="1600" height="664" alt="image" src="https://github.com/user-attachments/assets/1cdd4d28-e830-48d9-82c4-183ad9dea13a" />
+
 
 Penjelasan kode :
 1. Inisialisasi client dan state. Mendefinisikan API Key dan memasukkannya ke dalam genai.Client(). Objek client, riwayat chat, dan sesi API (chat_session) disimpan ke dalam session_state agar koneksi tidak putus dan percakapan tidak hilang saat streamlit di-refresh
